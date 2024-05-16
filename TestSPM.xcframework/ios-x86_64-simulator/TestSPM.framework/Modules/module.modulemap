@@ -1,0 +1,8 @@
+framework module "TestSPM" {
+    umbrella header "TestSPM.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
